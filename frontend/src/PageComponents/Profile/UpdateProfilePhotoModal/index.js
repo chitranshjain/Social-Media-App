@@ -37,7 +37,7 @@ function UpdateProfilePhotoModal(props) {
       formData.append("image", image);
       const response = await axios({
         method: "PATCH",
-        url: `http://localhost:8000/api/user/profile-picture`,
+        url: `https://social-media-backend-1986.onrender.com/api/user/profile-picture`,
         data: formData,
         headers: {
           Authorization: `Bearer ${token}`,

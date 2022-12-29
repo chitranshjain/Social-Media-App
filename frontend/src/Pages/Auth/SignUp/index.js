@@ -35,7 +35,7 @@ const SignUp = () => {
     try {
       const response = await axios({
         method: "POST",
-        url: "http://localhost:8000/api/user/signup",
+        url: "https://social-media-backend-1986.onrender.com/api/user/signup",
         data: userData,
       });
       console.log(response.data.data);

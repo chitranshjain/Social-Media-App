@@ -24,7 +24,7 @@ const Profile = () => {
     try {
       await axios({
         method: "DELETE",
-        url: `http://localhost:8000/api/posts/${postId}`,
+        url: `https://social-media-backend-1986.onrender.com/api/posts/${postId}`,
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -42,7 +42,7 @@ const Profile = () => {
       setUserPosts();
       const response = await axios({
         method: "GET",
-        url: "http://localhost:8000/api/posts/self",
+        url: "https://social-media-backend-1986.onrender.com/api/posts/self",
         headers: {
           Authorization: `Bearer ${token}`,
         },

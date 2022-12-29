@@ -23,7 +23,7 @@ export const AuthProvider = (props) => {
       setToken(token);
       const response = await axios({
         method: "GET",
-        url: `http://localhost:8000/api/user/verifyLogin`,
+        url: `https://social-media-backend-1986.onrender.com/api/user/verifyLogin`,
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -56,7 +56,7 @@ export const AuthProvider = (props) => {
     try {
       await axios({
         method: "PATCH",
-        url: `http://localhost:8000/api/posts/like/${post._id}`,
+        url: `https://social-media-backend-1986.onrender.com/api/posts/like/${post._id}`,
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -79,7 +79,7 @@ export const AuthProvider = (props) => {
     try {
       await axios({
         method: "PATCH",
-        url: `http://localhost:8000/api/posts/unlike/${post._id}`,
+        url: `https://social-media-backend-1986.onrender.com/api/posts/unlike/${post._id}`,
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -104,7 +104,7 @@ export const AuthProvider = (props) => {
         notificationType === "like" ? "liked your" : "commented on your";
       await axios({
         method: "POST",
-        url: "http://localhost:8000/api/notifications/",
+        url: "https://social-media-backend-1986.onrender.com/api/notifications/",
         headers: {
           Authorization: `Bearer ${token}`,
         },

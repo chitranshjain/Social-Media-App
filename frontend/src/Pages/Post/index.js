@@ -40,7 +40,7 @@ const Post = () => {
     try {
       const response = await axios({
         method: "GET",
-        url: `http://localhost:8000/api/posts/${postId}`,
+        url: `https://social-media-backend-1986.onrender.com/api/posts/${postId}`,
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -56,7 +56,7 @@ const Post = () => {
     try {
       await axios({
         method: "POST",
-        url: `http://localhost:8000/api/comments/${postId}`,
+        url: `https://social-media-backend-1986.onrender.com/api/comments/${postId}`,
         data: {
           commentText: comment,
         },

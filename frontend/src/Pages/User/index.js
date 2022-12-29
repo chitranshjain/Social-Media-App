@@ -28,7 +28,7 @@ const User = () => {
     try {
       const response = await axios({
         method: "GET",
-        url: `http://localhost:8000/api/user/user/${userId}`,
+        url: `https://social-media-backend-1986.onrender.com/api/user/user/${userId}`,
         headers: {
           Authorization: `Bearer ${token}`,
         },

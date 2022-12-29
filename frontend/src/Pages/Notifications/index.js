@@ -25,7 +25,7 @@ const Notifications = () => {
       setNewNotifications([]);
       const oldresponse = await axios({
         method: "GET",
-        url: `http://localhost:8000/api/notifications/all`,
+        url: `https://social-media-backend-1986.onrender.com/api/notifications/all`,
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -34,7 +34,7 @@ const Notifications = () => {
 
       const newresponse = await axios({
         method: "GET",
-        url: `http://localhost:8000/api/notifications/new`,
+        url: `https://social-media-backend-1986.onrender.com/api/notifications/new`,
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -49,7 +49,7 @@ const Notifications = () => {
     try {
       await axios({
         method: "PATCH",
-        url: "http://localhost:8000/api/notifications",
+        url: "https://social-media-backend-1986.onrender.com/api/notifications",
         headers: {
           Authorization: `Bearer ${token}`,
         },

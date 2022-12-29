@@ -41,7 +41,7 @@ function NewPostModal(props) {
       formData.append("textContent", textContent);
       const response = await axios({
         method: "POST",
-        url: `http://localhost:8000/api/posts/`,
+        url: `https://social-media-backend-1986.onrender.com/api/posts/`,
         data: formData,
         headers: {
           Authorization: `Bearer ${token}`,

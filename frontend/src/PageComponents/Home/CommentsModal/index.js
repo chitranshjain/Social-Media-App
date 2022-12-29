@@ -17,7 +17,7 @@ const CommentsModal = (props) => {
     try {
       const response = await axios({
         method: "POST",
-        url: `http://localhost:8000/api/comments/${props.post._id}`,
+        url: `https://social-media-backend-1986.onrender.com/api/comments/${props.post._id}`,
         data: {
           commentText: comment,
         },

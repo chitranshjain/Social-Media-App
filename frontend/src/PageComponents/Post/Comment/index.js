@@ -15,7 +15,7 @@ const Comment = ({ comment, getPost }) => {
     try {
       await axios({
         method: "DELETE",
-        url: `http://localhost:8000/api/comments/${comment.postId}/${comment.id}`,
+        url: `https://social-media-backend-1986.onrender.com/api/comments/${comment.postId}/${comment.id}`,
         headers: {
           Authorization: `Bearer ${token}`,
         },

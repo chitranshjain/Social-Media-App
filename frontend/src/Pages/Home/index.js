@@ -42,7 +42,7 @@ const Home = () => {
       formData.append("textContent", textContent);
       const response = await axios({
         method: "POST",
-        url: `http://localhost:8000/api/posts/`,
+        url: `https://social-media-backend-1986.onrender.com/api/posts/`,
         data: formData,
         headers: {
           Authorization: `Bearer ${token}`,
@@ -67,7 +67,7 @@ const Home = () => {
     try {
       const response = await axios({
         method: "GET",
-        url: `http://localhost:8000/api/posts/feed`,
+        url: `https://social-media-backend-1986.onrender.com/api/posts/feed`,
         headers: {
           Authorization: `Bearer ${token}`,
         },
