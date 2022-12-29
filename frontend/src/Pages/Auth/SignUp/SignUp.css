@@ -1,0 +1,52 @@
+.signup-parent-div {
+  height: 100vh;
+  width: 100%;
+  background-color: #ff7000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-card-div {
+  height: max-content;
+  background-color: white;
+  width: 650px;
+  border-radius: 12px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.011),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.016),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.02),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.024),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.029),
+    100px 100px 80px rgba(0, 0, 0, 0.04);
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.signup-card-div h5 {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.fields-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.signup-card-div p {
+  text-align: right;
+  margin-top: auto;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.signup-card-div p span {
+  color: #ff7000;
+  font-weight: 500;
+  transition: 0.1s ease;
+}
+
+.signup-card-div p span:hover {
+  color: #136260;
+  cursor: pointer;
+}

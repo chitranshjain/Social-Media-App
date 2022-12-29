@@ -1,0 +1,51 @@
+.home-profile-card-div {
+  padding: 16px;
+  margin: 16px;
+}
+
+.home-profile-card {
+  padding: 16px;
+  border: none !important;
+  border-radius: 8px;
+}
+
+.hpc__user-info-div img {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.hpc__user-info-div,
+.hpc__user-info-col,
+.hpc__user-contact-info,
+.hpc__user-contact-col {
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left;
+}
+
+.hpc__user-info-col.col-lg-10 {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.hpc__user-info-col h3 {
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.home-profile-card hr {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.hpc__user-contact-icon {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.hpc__user-contact-col p {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 4px;
+}

@@ -1,0 +1,17 @@
+.home-new-post-div {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.post-form-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.post-fields-div {
+  width: 100%;
+}

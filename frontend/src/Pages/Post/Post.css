@@ -1,0 +1,74 @@
+.post-parent-div {
+  height: 86vh;
+  padding: 16px;
+  background-color: rgb(243, 241, 241);
+}
+
+.post-card {
+  padding: 16px;
+  height: 80vh;
+  border-radius: 2px;
+  overflow-y: scroll;
+}
+
+.creator-info-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.post-creator-image {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.creator-info-div p {
+  margin-bottom: 0;
+  position: relative;
+  left: 24px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.post-details p {
+  width: 100%;
+  text-align: left;
+}
+
+.creator-info-div p span {
+  font-size: 12px;
+}
+
+.post-page-image {
+  height: 320px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.post-comments {
+  text-align: left;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.post-action-icon {
+  font-size: 24px;
+  transition: 0.1s ease;
+}
+
+.post-action-icon:hover {
+  color: rgb(238, 29, 147);
+  cursor: pointer;
+}
+
+.liked-icon {
+  color: rgb(238, 29, 147);
+  transition: 0.1s ease;
+}
+
+.liked-icon:hover {
+  color: rgba(0, 0, 0, 0.35);
+}
+
+/* .liked-icon:horizontal  */

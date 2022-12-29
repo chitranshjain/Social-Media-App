@@ -1,0 +1,71 @@
+.comments-modal-input {
+  width: 100%;
+  height: 40px;
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+.comments-modal-input::placeholder {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+
+.comments-modal-btn {
+  width: 100%;
+  border: 1px solid #ff7000;
+  padding: 6px;
+  background-color: transparent;
+  color: #ff7000;
+  font-weight: 500;
+  transition: 0.1s ease-in-out;
+}
+
+.comments-div {
+  height: 290px;
+  overflow-y: scroll;
+}
+
+.comments-modal-btn:hover {
+  color: white;
+  background-color: #ff7000;
+}
+
+.modal-comment {
+  min-height: 20px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.modal-comment .row,
+.modal-comment .col-lg-3 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.modal-comment img {
+  height: 80px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.modal-comment p {
+  font-size: 14px;
+  margin-bottom: 4px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-comment p span {
+  text-align: right;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.modal-comment .comment-text {
+  font-size: 16px;
+  font-weight: 400;
+}

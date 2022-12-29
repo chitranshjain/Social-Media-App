@@ -1,0 +1,46 @@
+.notification-card {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 16px;
+  /* padding: 12px; */
+  transition: 0.1s ease;
+}
+
+/* .notification-card.new:hover {
+  cursor: pointer;
+  background-color: rgb(215, 236, 255);
+} */
+
+.notification-card.new {
+  background-color: aliceblue;
+}
+
+.notification-card p {
+  color: rgba(0, 0, 0, 0.65);
+  margin-bottom: 4px;
+}
+
+.notification-card p span {
+  font-size: 12px;
+  width: 100% !important;
+  display: block;
+}
+
+.notification-sender {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.notification-post-image {
+  height: 80px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.notification-card .row,
+.notification-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}

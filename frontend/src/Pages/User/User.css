@@ -1,0 +1,48 @@
+.profile-page-parent-div {
+  min-height: 86vh;
+  height: max-content;
+  background-color: rgb(243, 241, 241);
+  padding: 24px 16px;
+}
+
+.user-details-card {
+  border: none;
+  border-radius: 0;
+  padding: 16px;
+  margin-bottom: 14px;
+}
+
+.user-details-div {
+  align-items: center;
+  justify-content: center;
+}
+
+.user-details-div img {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.details-row {
+  width: 100% !important;
+}
+
+.details-row,
+.details-col {
+  text-align: left;
+  margin: 0 !important;
+}
+
+.details-col {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.detail-icon {
+  font-size: 20px;
+}
+
+.user-posts-div {
+  min-height: 86vh;
+  overflow-y: scroll;
+}

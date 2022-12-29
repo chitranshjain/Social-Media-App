@@ -1,0 +1,14 @@
+.parent-box {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
+.header-box,
+.footer-box {
+  height: max-content;
+}
+
+.content-box {
+  flex-grow: 1;
+}

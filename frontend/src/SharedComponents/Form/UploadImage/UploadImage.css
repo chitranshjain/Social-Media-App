@@ -1,0 +1,52 @@
+.upload-image-div {
+  border: 1px dashed rgba(0, 0, 0, 0.15);
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-bottom: 14px;
+}
+
+.upload-image {
+  background-color: rgba(0, 0, 0, 0.03);
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  transition: 0.1s all ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.image-preview {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  transition: 0.1s all ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  object-fit: cover;
+}
+
+.upload-image:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+
+.upload-image-icon {
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.65);
+  margin-bottom: 8px;
+}
+
+.upload-image p {
+  font-size: 12px !important;
+  font-weight: 100;
+  word-spacing: 0;
+  margin-bottom: 0;
+}

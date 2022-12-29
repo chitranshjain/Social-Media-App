@@ -1,0 +1,160 @@
+.home-feed-card {
+  min-height: 380px;
+  width: 100%;
+  padding: 12px;
+  /* border: 1px solid rgba(0, 0, 0, 0.25); */
+  border: none;
+  transition: 0.1s ease-in-out;
+  margin-bottom: 12px;
+  border-radius: 0;
+  border-radius: 8px;
+}
+
+/* .home-feed-card:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 10px 6px rgba(0, 0, 0, 0.15);
+} */
+
+.home-feed-card hr {
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.post-creator-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+}
+
+.creator-image {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.post-creator-div p {
+  margin-left: 12px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.75);
+  margin-top: 0 !important;
+}
+
+.post-creator-div div p span {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  margin-top: 0 !important;
+}
+
+.home-feed-card hr {
+  margin: 6px 0;
+}
+
+.post-image {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  margin-bottom: 12px;
+}
+
+.home-feed p {
+  margin-top: 4px;
+  margin-bottom: 6px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.feed-post-actions-row,
+.action-col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.feed-post-actions-row {
+  /* background-color: red; */
+  margin-top: 6px !important;
+  color: rgba(0, 0, 0, 0.75);
+  text-align: left;
+  height: max-content;
+}
+
+.action-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px !important;
+}
+.action-col,
+.action-col span {
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.action-col-icon {
+  font-size: 24px;
+  margin-right: 4px;
+  transition: 0.1s ease;
+}
+
+.action-col-icon:hover {
+  color: rgb(238, 29, 147);
+  cursor: pointer;
+}
+
+.action-col span {
+  font-size: 14px;
+}
+
+.liked-icon {
+  color: rgb(238, 29, 147);
+  transition: 0.1s ease;
+}
+
+.liked-icon:hover {
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.post-open-link {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  color: rgba(0, 0, 0, 0.35);
+  transition: 0.1s ease;
+}
+
+.post-open-link:hover {
+  color: #ff7000;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1329px) {
+  .action-col-icon {
+    font-size: 18px;
+  }
+  .action-col span span {
+    font-size: 13px;
+  }
+}
+
+/* @media screen and (max-width: 1172px) {
+  .action-col-icon {
+    font-size: 16px;
+  }
+  .action-col span span {
+    font-size: 12px;
+    display: none;
+  }
+} */
+
+@media screen and (max-width: 1172px) {
+  .action-col,
+  .action-col span {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .action-col span span {
+    display: none;
+  }
+}

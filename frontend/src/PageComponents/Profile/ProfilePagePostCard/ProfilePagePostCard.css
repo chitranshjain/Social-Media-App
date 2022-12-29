@@ -1,0 +1,149 @@
+.profile-feed-card {
+  min-height: 380px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  transition: 0.1s ease-in-out;
+  margin-bottom: 12px;
+  border-radius: 0;
+}
+
+.profile-feed-card hr {
+  color: rgba(0, 0, 0, 0.35);
+  margin: 6px 0;
+}
+
+.post-creator-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: max-content;
+}
+
+.creator-image {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.post-creator-div p {
+  text-align: left;
+  margin-bottom: 2px !important;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.post-creator-div div p span {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 13px;
+}
+
+.post-image {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  margin-bottom: 12px;
+}
+
+.profile-feed-card p {
+  margin-bottom: 2px !important;
+  text-align: left;
+}
+
+.feed-post-actions-row,
+.action-col {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.feed-post-actions-row {
+  /* background-color: red; */
+  margin-top: 6px !important;
+  color: rgba(0, 0, 0, 0.75);
+  text-align: left;
+  height: max-content;
+}
+
+.action-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px !important;
+}
+
+.action-col-icon {
+  font-size: 24px;
+  margin-right: 4px;
+  transition: 0.1s ease;
+}
+
+.action-col-icon:hover {
+  color: rgb(238, 29, 147);
+  cursor: pointer;
+}
+
+.action-col span {
+  font-size: 14px;
+}
+
+.liked-icon {
+  color: rgb(238, 29, 147);
+  transition: 0.1s ease;
+}
+
+.liked-icon:hover {
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.post-open-link {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  color: rgba(0, 0, 0, 0.35);
+  transition: 0.1s ease;
+}
+
+.post-open-link:hover {
+  color: #ff7000;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1329px) {
+  .action-col-icon {
+    font-size: 18px;
+  }
+  .action-col span span {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .action-col,
+  .action-col span {
+    justify-content: center;
+    text-align: center;
+  }
+  .action-col span span {
+    display: none;
+  }
+}
+
+.delete-btn {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s ease-in-out;
+}
+
+.delete-icon {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.delete-btn:hover {
+  color: #ff7000;
+  cursor: pointer;
+}

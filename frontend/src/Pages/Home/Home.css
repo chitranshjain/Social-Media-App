@@ -1,0 +1,51 @@
+.home-parent-div {
+  /* padding: 24px; */
+  display: flex;
+  background-color: rgb(243, 241, 241);
+}
+
+.home-feed {
+  flex-grow: 1;
+  min-height: 82.6vh;
+  padding: 16px;
+  margin: 16px;
+  overflow-y: scroll;
+}
+
+.create-new-post-btn {
+  position: absolute;
+  right: -10px;
+  top: 10%;
+  z-index: 2;
+  border: none;
+  background-color: #ff7000;
+  color: white;
+  height: 60px;
+  width: 60px;
+  font-size: 24px;
+  border-radius: 50%;
+  transition: 0.2s ease;
+}
+
+.create-new-post-btn:hover {
+  right: 10px;
+  height: 80px;
+  width: 80px;
+  font-size: 32px;
+}
+
+.home-new-post {
+  margin: 16px;
+  padding: 16px;
+}
+
+.home-new-post-card {
+  border: none !important;
+  border-radius: 8px;
+}
+
+.home-new-post-card h5 {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,85 @@
+.comment-parent-div {
+  /* height: 80px; */
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 12px;
+}
+
+.user-avatar {
+  height: inherit;
+  width: 8%;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-avatar img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.comment-content {
+  height: inherit;
+  width: 100%;
+  /* padding-top: 8px; */
+}
+
+.comment-content p {
+  margin-bottom: 8px !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.comment-content p span {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.comment-content p span span {
+  font-size: 12px;
+  width: 100%;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.delete-comment-icon {
+  font-size: 20px;
+  transition: 0.1s ease;
+  font-weight: 500;
+}
+
+.delete-comment-icon:hover {
+  cursor: pointer;
+  color: #ff7000;
+}
+
+@media screen and (max-width: 1172px) {
+  .user-avatar {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 916px) {
+  .user-avatar {
+    width: 12%;
+  }
+}
+
+@media screen and (max-width: 758px) {
+  .user-avatar {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .user-avatar {
+    width: 20%;
+  }
+}
