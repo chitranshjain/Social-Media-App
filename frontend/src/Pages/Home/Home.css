@@ -51,12 +51,10 @@
 }
 
 @media screen and (max-width: 576px) {
-  .home-feed {
-    margin: 4px;
-  }
-
+  .home-feed,
   .home-new-post,
   .home-profile-card-div {
     margin: 4px;
+    padding: 4px;
   }
 }
