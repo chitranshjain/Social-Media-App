@@ -49,3 +49,14 @@
   font-size: 18px;
   margin-bottom: 8px;
 }
+
+@media screen and (max-width: 576px) {
+  .home-feed {
+    margin: 4px;
+  }
+
+  .home-new-post,
+  .home-profile-card-div {
+    margin: 4px;
+  }
+}
